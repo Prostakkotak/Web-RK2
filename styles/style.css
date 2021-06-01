@@ -238,10 +238,32 @@ table {
   width: 100%;
 }
 
-.main__tags-list h2 {
+.main__tags-list h2,
+.form__title {
   padding-bottom: 20px;
   font-size: 1.5rem;
   width: 100%;
+}
+
+.form {
+  padding: 0 2vw;
+  width: 100%;
+}
+.form input {
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid;
+}
+.form label {
+  margin-right: 10px;
+}
+
+.form__input-block {
+  margin: 10px 0;
+}
+
+.form__input-block.image input {
+  border: 0;
 }
 
 .main__tag {
@@ -258,7 +280,7 @@ table {
 }
 
 .main__receipts {
-  padding: 0 2vw;
+  padding: 20px 2vw 100px 2vw;
 }
 
 .receipt {
@@ -288,5 +310,7 @@ table {
 }
 
 .footer {
+  padding: 50px 0;
   border-top: 1px solid;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

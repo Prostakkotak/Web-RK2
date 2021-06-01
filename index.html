@@ -37,6 +37,20 @@
                     <li class="main__tag hoverable">Рыба</li>
                     <li class="main__tag hoverable">Курица</li>
                 </ul>
+                <form name="create-receipt" class="form">
+                    <h2 class="form__title">Добавление рецепта</h2>
+                    <div class="form__input-block">
+                        <label for="name">Название</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form__input-block">
+                        <label for="tags">Категории</label>
+                        <input type="text" id="tags">
+                    </div>
+                    <div class="form__input-block image">
+                        <label for="image">Фото</label>
+                        <input type="file"></div>
+                </form>
                 <div class="main__sort-setting">
                     <a class="active" href="#">По дате</a> / <a href="#">По популярности</a>
                 </div>
@@ -75,7 +89,7 @@
         </main>
 
         <footer class="footer">
-
+            Васьковский Сергей Павлович, 201-322, 01.06.2021
         </footer>
 
         <script src="./scripts/scripts.js"></script>
