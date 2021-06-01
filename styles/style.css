@@ -172,8 +172,9 @@ table {
 }
 
 .header {
+  padding: 0 2vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -268,6 +269,12 @@ table {
 
 .form__input-block.image input {
   border: 0;
+}
+
+.form__submit {
+  cursor: pointer;
+  max-width: 250px;
+  width: 100%;
 }
 
 .main__tag {
