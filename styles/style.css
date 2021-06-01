@@ -227,15 +227,17 @@ table {
 
 .main__list-settings {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .main__tags-list {
+  box-sizing: border-box;
   display: flex;
+  align-content: flex-start;
   flex-wrap: wrap;
   padding: 2vw;
-  width: 100%;
+  width: 49%;
 }
 
 .main__tags-list h2,
@@ -246,8 +248,10 @@ table {
 }
 
 .form {
-  padding: 0 2vw;
-  width: 100%;
+  box-sizing: border-box;
+  padding: 2vw;
+  width: 50%;
+  text-align: right;
 }
 .form input {
   border-radius: 4px;
@@ -275,6 +279,10 @@ table {
   cursor: pointer;
 }
 
+.main__sort-setting {
+  padding: 0 2vw;
+}
+
 .main__sort-setting a.active {
   text-decoration: none;
 }
@@ -295,6 +303,7 @@ table {
 .receipt__image {
   display: block;
   padding-right: 20px;
+  max-width: 300px;
 }
 
 .receipt p {
