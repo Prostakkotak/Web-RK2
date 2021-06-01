@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper black">
+
+        <header class="header">
+            <div class="header__logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#">Главная</a></li>
+                    <li class="header__item"><a href="#">Страница</a></li>
+                    <li class="header__item"><a href="#">Ещё что-то</a></li>
+                </ul>
+            </nav>
+            <button class="header__theme-switch" id="theme-switch">Сменить тему</button>
+        </header>
+
+        <main class="main">
+            <h1 class="main__title">Рецепты</h1>
+            <div class="main__list-settings">
+                <ul class="main__tags-list">
+                    <h2>Категории</h2>
+                    <li class="main__tag hoverable">Мясо</li>
+                    <li class="main__tag hoverable">Рыба</li>
+                    <li class="main__tag hoverable">Курица</li>
+                </ul>
+                <div class="main__sort-setting">
+                    <a class="active" href="#">По дате</a> / <a href="#">По популярности</a>
+                </div>
+            </div>
+            <ul class="main__receipts">
+                <li class="receipt">
+                    <img src="./images/receipt1.jpg" alt="receipt1">
+                    <div class="receipt__description">
+                        <p>Описание блюда</p>
+
+                        <ul class="receipt__Ingredients">
+                            <li>Мясо</li>
+                            <li>Овощи</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+
+        <script src="./scripts/scripts.js"></script>
+    </div>
+</body>
+
+</html>
